@@ -1,0 +1,12 @@
+.nav-size{
+    height: 82px;
+    font-size: 14px;
+    width: -webkit-fill-available;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+
+}

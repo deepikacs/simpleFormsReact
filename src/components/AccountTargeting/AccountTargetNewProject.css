@@ -1,0 +1,50 @@
+/* //new */
+.rectangle{	
+  height: 54px;	
+  width: 100%;	
+  margin-top: 13px;
+  border: 1px solid #979797;
+}
+
+.Zipcode-align{
+  position: inherit;
+  top: -4px;
+  padding-left: 7px;
+}
+
+.padd-botom10{
+  padding-bottom: 10px;
+}
+.border-box{
+  border: 1px solid black;
+}
+.select-rectangle{
+  margin-left: -42px;
+  margin-top: -4px;
+  -webkit-appearance: none;
+  height: 45px;	
+  width: 188%;	
+  border: 1px solid #979797;	
+  background-color: #F2F2F2;
+}
+.font-18{
+  font-size: 18px;
+  color:#979797 !important;
+}
+.font-12{
+font-size: 12px;
+}
+.inputWidth{
+  width: 98px;
+  height: 44px;
+}
+.orangeColor{
+  /* // background-color: orange !important; */
+  -webkit-text-fill-color: orange;
+}
+.closedDate{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
