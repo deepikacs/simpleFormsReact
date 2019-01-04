@@ -43,7 +43,6 @@ class SimpleForm extends Component {
     debugger;
     let x=this.state.array.push(data);
     this.setState({x});
-    
   }
   render() {
     return (

@@ -1,0 +1,35 @@
+.div-align{
+  height: 50%;
+  width: 50%;
+  margin-left: 25%;
+}
+.edit{
+  display:none;
+  margin-right: auto;
+  margin-left: auto;
+}
+.delete{
+  display:none;
+  margin-right: auto;
+  margin-left: auto;
+}
+.save{
+  display: none;
+}
+.cancel{
+  display: none;
+}
+.table-row:hover{
+  .edit{
+    display:block;
+  }
+  .delete{
+    display:block;
+  }
+  .save{
+    display: block;
+  }
+  .cancel{
+    display: block;
+  }
+}

@@ -7,7 +7,7 @@ import './App.css';
 // import SimpleForm from '../SimpleForm/SimpleForm';
 import SimpleForm from '../SimpleForm';
 import SingleComponent from '../SingleComponent/SingleComponent';
-import StateLessComponent from '../StateLessComponent';
+import StateFullComponent from '../StateFullComponent';
 
 class App extends Component {
   render() {
@@ -15,8 +15,9 @@ class App extends Component {
       <Router>
         <Switch>
       <Route exact path='/' component={SingleComponent}></Route>  
+      <Route exact path='/accounttargeting' component={AccountTargeting}></Route>
       <Route exact path='/stateful' component={SimpleForm}></Route> 
-      <Route exact path='/stateless' component={StateLessComponent}></Route>
+      <Route exact path='/stateless' component={StateFullComponent}></Route>
       </Switch> 
   </Router>
 
